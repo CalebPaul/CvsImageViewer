@@ -85,9 +85,6 @@ class ImageListViewModel @Inject constructor(@ApplicationContext app: Context, p
                     result.data?.items?.let { imageData ->
                         val imageItems = imageData.map { FlickrImage.toImageItem(it) }
                         _imageList.value = ListState(data = imageItems)
-                        imageItems.forEach {
-                            println(it)
-                        }
                     } ?: emptyList<FlickrImageItem>()
                 }
             }
