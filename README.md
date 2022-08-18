@@ -1,4 +1,4 @@
-#CVS_IMAGE_VIEWER
+# CVS_IMAGE_VIEWER
 This is an Android application that retrieves image information from a server and displays them in list and detail formats.
 
 ## Build tools & versions used
