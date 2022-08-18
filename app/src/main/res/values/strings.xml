@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">CvsImageViewer</string>
+    <string name="image_item_CD">Card displaying image and title</string>
+    <string name="search_button_CD">Search Button</string>
+    <string name="placeholder_search_text">Search images</string>
+    <string name="previous_searches_SP">previous_searches</string>
+    <string name="recent_searches_header">Recent Searches</string>
+    <string name="no_recent_searches_header">You have no recent searches. Enter a search term above.</string>
 </resources>
